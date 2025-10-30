@@ -52,7 +52,7 @@ class _FullscreenState extends State<Fullscreen> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text("Set as wallpaper",style: TextStyle
-                              (fontSize: 20,fontWeight: FontWeight.bold),),
+                              (fontSize: 18,fontWeight: FontWeight.bold),),
                             GestureDetector(
                               onTap: (){
                                 setwallpaper(WallpaperManagerFlutter.homeScreen);
@@ -60,7 +60,7 @@ class _FullscreenState extends State<Fullscreen> {
                                 Navigator.pop(context);
                               },
                                 child: Text("Home Screen",style: TextStyle
-                                  (fontSize: 18,),),
+                                  (fontSize: 16,),),
                             ),
                             GestureDetector(
                               onTap: (){
@@ -70,7 +70,7 @@ class _FullscreenState extends State<Fullscreen> {
                                 Navigator.pop(context);
                               },
                                 child: Text("Lock Screen",style: TextStyle
-                                  (fontSize: 18,),),
+                                  (fontSize: 16,),),
                             ),
                             GestureDetector(
                               onTap: (){
@@ -80,7 +80,7 @@ class _FullscreenState extends State<Fullscreen> {
                                 Navigator.pop(context);
                               },
                               child: Text("Lock and Home Screens",style: TextStyle
-                                (fontSize: 18,),),
+                                (fontSize: 16,),),
                             ),
                           ],
                         ),
